@@ -1,4 +1,3 @@
-
 .Why-Choose-Us {
     min-height: 300px;
     margin-top: 10%;
@@ -104,6 +103,177 @@
     }
 }
 
+nav > #nav-text {
+    font-family: 'Kristi', cursive;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    opacity: 1;
+    }
+    
+    .navbar-nav {
+    opacity: 1;
+    }
+    
+    .navbar-toggler-icon {
+    opacity: 1;
+    }
+    
+    #greeting-1 {
+    padding-top: 5rem;
+    opacity: 1;
+    }
+    
+    #greeting-2 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    opacity: 1;
+    }
+    
+    .jumbotron-fluid {
+        background-image:url("https://images.unsplash.com/photo-1561842761-ce09e82cdb59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100%;
+        background-position: center bottom;
+        opacity: 0.8;
+      }
 
+/** {
+    outline: 1px solid red;
+} */
 
+footer {
+    padding-bottom: 0;
+}
 
+footer a {
+    text-decoration: none !important;
+    color: #848d95;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer > .container-fluid {
+    background-color: #343c4d;
+    color: white;
+    padding: 20px 70px;
+}
+
+footer > div > div > div {
+    margin-bottom: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer > div > div > div > ul {
+    padding-left: 0;
+}
+
+footer > div > div > div:nth-child(1) > div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #4fbcb0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fab, .fas {
+    color: #4fbcb0;
+}
+
+.btn.btn-primary {
+    background-color: #4fbcb0;
+    border-color: #4fbcb0;
+    opacity: 0.8;
+}
+
+.btn.btn-primary:hover {
+    opacity: 1;
+}
+
+.about-us {
+    background-color: #eff5f5;
+}
+.about-us .card-group {
+    padding: 2% 7% 3% 7%;    
+}
+.about-us .card {   
+    background-color: transparent;
+    border: none;
+    margin-bottom: 20px;
+}
+.about-us .card-body {
+    text-align: center;
+}
+.about-us .card-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    color: #666666;
+}
+.about-us .card-text, .section-text {
+    font-style: italic;
+    font-size: 13px;
+    color: #666666;
+}
+.section-text {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.about-us .card-footer {
+    padding: 0;
+    background-color: transparent;
+    border-top: none;
+}
+.about-us .icon-block {
+    text-align: center;
+}
+.about-us .fab {
+    color: #9c9c9c;
+    margin-left: 3%;
+    font-size: 18px;
+}
+.about-us .section-header {
+    padding-top: 4%;
+}
+.section-header .section-title {
+    font-size: 32px;
+    color: #111;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.about-us hr {
+    display: block;
+    height: 0px;
+    border: 0;
+    border-top: 3px solid rgb(101, 247, 133);
+    margin: 1em 0;
+    margin-right: 46%;
+    margin-left: 46%;
+}
+.card-img-top {
+    width: 255px;
+    height: 255px;
+}
+.col-lg-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
