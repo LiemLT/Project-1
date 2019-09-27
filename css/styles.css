@@ -8,6 +8,7 @@
 .about-us .card {   
     background-color: transparent;
     border: none;
+    margin-bottom: 20px;
 }
 .about-us .card-body {
     text-align: center;
