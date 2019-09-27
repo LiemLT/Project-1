@@ -1,4 +1,41 @@
 
+nav > #nav-text {
+    font-family: 'Kristi', cursive;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    opacity: 1;
+    }
+    
+    .navbar-nav {
+    opacity: 1;
+    }
+    
+    .navbar-toggler-icon {
+    opacity: 1;
+    }
+    
+    #greeting-1 {
+    padding-top: 5rem;
+    opacity: 1;
+    }
+    
+    #greeting-2 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    opacity: 1;
+    }
+    
+    .jumbotron-fluid {
+        background-image:url("https://images.unsplash.com/photo-1561842761-ce09e82cdb59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100%;
+        background-position: center bottom;
+        opacity: 0.8;
+      }
+
+
 /** {
     outline: 1px solid red;
 } */
@@ -138,3 +175,4 @@ footer > div > div > div:nth-child(1) > div {
     flex-direction: column;
     align-items: center;
 }   
+
