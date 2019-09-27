@@ -143,7 +143,7 @@ footer > div > div > div:nth-child(1) > div {
     margin-left: 3%;
     font-size: 18px;
 }
-.about-us .section-header {
+.about-us, .location .section-header {
     padding-top: 4%;
 }
 .section-header .section-title {
@@ -188,4 +188,7 @@ hr {
 }
 #opacity-image:hover {
     background-color: rgba(0, 0, 0, 0.2);
+}
+.location {
+    padding-bottom: 3%;
 }
