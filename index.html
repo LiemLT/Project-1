@@ -8,11 +8,12 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <link href="https://fonts.googleapis.com/css?family=Kristi&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Travelity</title>
 </head>
+
+
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -38,7 +39,7 @@
                     <a class="nav-link" href="#">Find a Guide</a>
             </li>
             <li class="nav-item active">
-                    <a class="nav-link" href="#">Our Team</a>
+                    <a class="nav-link" href="#ourteam">Our Team</a>
             </li>
             <li class="nav-item active">
                     <a class="nav-link" href="#">Contact Us</a>
@@ -49,7 +50,6 @@
 
     <section id="header">
         <div class="jumbotron-fluid text-center">
-        <!-- <div class="card-img-overlay"> -->
             <h1 id="greeting-1" class="text-light">Enjoy a city like a local</h1>
             <p id="greeting-2" class="text-light">Instantly book a private city tour from a local, knowledgeable guide.</p>
             <a id="get-started-button" href="#" class="btn btn-outline-light btn-lg">Get Started</a>
@@ -57,123 +57,70 @@
       </div>
     </section>
 
-    <div class="location">
-        <div class="section-header">
-            <h3 class="section-title">TOP LOCATIONS</h3>
-            <hr />
-        </div>
-        <div class="container">
-            <div class="row" id="row-location">
-                <div class="col-lg-4" id="card-location">
-                    <div class="card bg-dark text-white" id="card-image">
-                        <img class="card-img"
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/PhoCoHoiAn.jpg/800px-PhoCoHoiAn.jpg"
-                            alt="Card image">
-                        <div class="card-img-overlay" id="opacity-image">
-                            <h5 class="card-title">Hội An</h5>
-                            <p class="card-text">Partnered with 150+ tourism companies</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4" id="card-location">
-                    <div class="card bg-dark text-white" id="card-image">
-                        <img class="card-img"
-                            src="https://www.vntrip.vn/cam-nang/wp-content/uploads/2017/07/1.jpg"
-                            alt="Card image">
-                        <div class="card-img-overlay" id="opacity-image">
-                            <h5 class="card-title">Đà Nẵng</h5>
-                            <p class="card-text">Partnered with 178+ tourism companies</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4" id="card-location">
-                    <div class="card bg-dark text-white" id="card-image">
-                        <img class="card-img"
-                            src="https://media-cdn.tripadvisor.com/media/photo-s/0d/f5/5a/2c/phu-quoc-day-trip-to.jpg"
-                            alt="Card image">
-                        <div class="card-img-overlay" id="opacity-image">
-                            <h5 class="card-title">Phú Quốc</h5>
-                            <p class="card-text">Partnered with 125+ tourism companies</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4" id="card-location">
-                    <div class="card bg-dark text-white" id="card-image">
-                        <img class="card-img"
-                            src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/73/3f/7b.jpg"
-                            alt="Card image">
-                        <div class="card-img-overlay" id="opacity-image">
-                            <h5 class="card-title">Vịnh Hạ Long</h5>
-                            <p class="card-text">Partnered with 116+ tourism companies</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4" id="card-location">
-                    <div class="card bg-dark text-white" id="card-image">
-                        <img class="card-img"
-                            src="https://znews-photo.zadn.vn/w1024/Uploaded/mdf_eioxrd/2018_10_17/1_2.jpg"
-                            alt="Card image">
-                        <div class="card-img-overlay" id="opacity-image">
-                            <h5 class="card-title">Đà Lạt</h5>
-                            <p class="card-text">Partnered with 189+ tourism companies</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4" id="card-location">
-                    <div class="card bg-dark text-white" id="card-image">
-                        <img class="card-img"
-                            src="http://baogialai.com.vn/dataimages/201806/original/images2657757_bao_ton.gif"
-                            alt="Card image">
-                        <div class="card-img-overlay" id="opacity-image">
-                            <h5 class="card-title">Tây Nguyên</h5>
-                            <p class="card-text">Partnered with 120+ tourism companies</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                    <div class="col-lg-4" id="card-location">
-                        <div class="card bg-dark text-white" id="card-image">
-                            <img class="card-img"
-                                src="https://dulichvongquanhhanoi.files.wordpress.com/2013/11/du-lich-bui-quanh-ha-noi-1-ngay-ngo-dung.jpg?w=529&h=351"
-                                alt="Card image">
-                            <div class="card-img-overlay" id="opacity-image">
-                                <h5 class="card-title">Hà Nội</h5>
-                                <p class="card-text">Partnered with 89+ tourism companies</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4" id="card-location">
-                        <div class="card bg-dark text-white" id="card-image">
-                            <img class="card-img"
-                                src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/74/c2/32.jpg"
-                                alt="Card image">
-                            <div class="card-img-overlay" id="opacity-image">
-                                <h5 class="card-title">SaPa</h5>
-                                <p class="card-text">Partnered with 174+ tourism companies</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4" id="card-location">
-                        <div class="card bg-dark text-white" id="card-image">
-                            <img class="card-img"
-                                src="https://images.vov.vn/w800/uploaded/pxt8plta04/2018_08_30/tien_giang_jhad.jpg"
-                                alt="Card image">
-                            <div class="card-img-overlay" id="opacity-image">
-                                <h5 class="card-title">Tiền Giang</h5>
-                                <p class="card-text">Partnered with 100+ tourism companies</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-    <div class="about-us">
+            <div class="Why-Choose-Us">
+                <div class="Grey-Div">
+                    <div class=".container-fluid">
+                            <div class="row">
+                              <div class="col-5 col-xs-2">
+                                <h5>1.</h5>
+                                <h6>Trusted Partner</h6>
+                                <p><b>-----------------------</b></p>
+                                <p>#1 in VN</p>
+                                <p>Latest technologies</p>
+                              </div>
+                              <div class="col-5 col-xs-2">
+                                <h5>2.</h5>
+                                <h6>Secure Payment</h6>
+                                <p><b>-----------------------</b></p>
+                                <p>Safer</p>
+                                <p>Faster</p>
+                              </div>
+                              <div class="col-5 col-xs-2">
+                                <h5>3.</h5>
+                                <h6>Value Pricing</h6>
+                                <p><b>-----------------------</b></p>
+                                <p>Any plan fits your need</p>
+                                <p>Money guaranteed</p>
+                              </div>
+                            </div>
+        
+                            <div class="row">
+                              <div class="col-5 col-xs-2">
+                                <h5>4.</h5>
+                                <h6>Services</h6>
+                                <p><b>-----------------------</b></p>
+                                <p>All tourist service providers</p>
+                              </div>
+                              <div class="col-5 col-xs-2">
+                                <h5>5.</h5>
+                                <h6>Booking</h6>
+                                <p><b>-----------------------</b></p>
+                                <p>Handle reservations and ticketing</p>
+                              </div>
+                              <div class="col-5 col-xs-2">
+                                <h5>6.</h5>
+                                <h6>Support</h6>
+                                <p><b>-----------------------</b></p>
+                                <p>From 08:00 to 23:00</p>
+                                <p>Hotline</p>
+                              </div>
+                            </div>
+                          </div>
+                </div>
+        
+                <div class="Orange-Div">
+                    <p>Why choose</p>
+                    <h5><b><b>Travelity?</b></b></h5>
+                    <i class="far fa-arrow-alt-circle-right"></i>
+                </div>
+            
+            </div>
+    <div class="about-us"><a id="ourteam"></a>
         <div class="section-header">
             <h3 class="section-title">Our Team</h3>
-            <hr />
-            <span class="section-text">People in Group 2 - Sierra</span>
+            <hr/>
+            <span class="section-text">Our technical people that run the code</span>
         </div>
         <div class="row card-group ">
             <div class="col-md-6 col-lg-3">
@@ -248,16 +195,16 @@
         </div>
     </div>
 
+
     <footer>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <ul>
-                        <h1>Travelity, Inc</h1>
-                        <li>Stret Address</li>
-                        <li>City, ST 00000</li>
-                        <li>Call us: 1-800-COMPANY</li>
-                        <li>(800-000-0000)</li>
+                        <h1>Travelity</h1>
+                        <li>14 Ton Dan</li>
+                        <li>HCMC, 70000</li>
+                        <li>Call us: 1-800-TRAVEL</li>
                     </ul>
                     <div>
                         <a href="">
@@ -296,7 +243,7 @@
                 <div class="col-sm-12 col-md-3 col-lg-2">
                     <h5>Product</h5>
                     <ul>
-                        <li><a href="">Tour</a></li>
+                        <li><a href="">Tours</a></li>
                         <li><a href="">FAQs</a></li>
                     </ul>
                     <h5>Resources</h5>
@@ -311,22 +258,22 @@
                     <form>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="inputFirstname">First Name*</label>
-                                <input type="name" class="form-control" placeholder="First Name">
+                                <label for="inputFirstname">First Name</label>
+                                <input type="name" class="form-control">
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="inputLastname">Last Name*</label>
-                                <input type="name" class="form-control" placeholder="Last Name">
+                                <label for="inputLastname">Last Name</label>
+                                <input type="name" class="form-control">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="inputEmail4">Email*</label>
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="abc@email.com">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4">
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="inputPhone4">Phone Number*</label>
-                                <input type="text" class="form-control" placeholder="0123456789">
+                                <label for="inputPhone4">Phone Number</label>
+                                <input type="text" class="form-control">
                             </div>
                         </div>
 
@@ -347,6 +294,7 @@
         </div>
     </footer>
 
+    <script src="scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
