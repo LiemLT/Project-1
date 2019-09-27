@@ -42,26 +42,27 @@
 }
 
 .Orange-Div {
-    background-color: #ff920a;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
     height: 310px;
     width: 280px;
     position: absolute;
     z-index: 1;
     margin-left: 10%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
-    align-items: center;
     color: white;
 }
 
 .Orange-Div h5 {
-    font-size: 32px;
+    font-size: 34px;
     padding-left: 10px;
 }
 
 .Orange-Div p {
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .Orange-Div {
@@ -79,8 +80,8 @@
     padding-left: 30px;
     font-size: 38px;
     position: relative;
-    left: 16px;
-    bottom: 10px;
+    left: 8rem;
+    bottom: 3rem;
 }
 
 @media screen and (max-width: 1150px) {
