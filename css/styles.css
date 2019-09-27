@@ -36,10 +36,6 @@ nav > #nav-text {
       }
 
 
-/** {
-    outline: 1px solid red;
-} */
-
 footer {
     padding-bottom: 0;
 }
@@ -157,7 +153,7 @@ footer > div > div > div:nth-child(1) > div {
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
 }
-.about-us hr {
+hr {
     display: block;
     height: 0px;
     border: 0;
@@ -170,9 +166,26 @@ footer > div > div > div:nth-child(1) > div {
     width: 255px;
     height: 255px;
 }
-.col-lg-3 {
+.about-us .col-lg-3 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }   
+.location .container {
+    max-width: 80%;
+}
+#row-about-us {
+    margin-right: 0px;
+}
 
+#card-location {
+    margin-bottom: 15px;
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+}
+#opacity-image {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#opacity-image:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
