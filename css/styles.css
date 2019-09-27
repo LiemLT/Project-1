@@ -1,10 +1,11 @@
-.Why-Choose-Us1 {
+
+.Why-Choose-Us {
     min-height: 300px;
     margin-top: 10%;
     display: flex;
 }
 
-.Why-Choose-Us2 {
+.Grey-Div {
     background-color: #ededed;
     margin: 2%;
     width: 100%;
@@ -16,7 +17,7 @@
     padding-bottom: 10px;
 }
 
-#Why-Choose-Us3 {
+.Grey-Div .container-fluid {
     display: flex;
     font-size: 13px;
     margin-right: 7%;
@@ -24,7 +25,7 @@
     width: 20%;
 }
 
-.Why-Choose-Us4 {
+.Grey-Div .row {
     display: flex;
     flex-wrap: nowrap;
     margin-right: 0px;
@@ -32,19 +33,19 @@
     margin-left: -20%;
 }
 
-.Why-Choose-Us4 h5 {
+.Grey-Div .row h5 {
     color: red;
     font-weight: 700;
 }
 
-.Why-Choose-Us4 p {
+.Grey-Div .row p {
     font-size: 12px;
 }
 
-.Why-Choose-Us5 {
+.Orange-Div {
     background-color: #ff920a;
-    height: 330px;
-    width: 300px;
+    height: 310px;
+    width: 280px;
     position: absolute;
     z-index: 1;
     margin-left: 10%;
@@ -53,23 +54,25 @@
     text-align: center;
     align-items: center;
     color: white;
-    animation-name: example;
-    animation-duration: 2s;
 }
 
-.Why-Choose-Us5 h5 {
+.Orange-Div h5 {
     font-size: 32px;
     padding-left: 10px;
 }
 
-.Why-Choose-Us5 p {
-    font-size: 20px;
+.Orange-Div p {
+    font-size: 17px;
 }
 
+.Orange-Div {
+    animation-name: example;
+    animation-duration: 2s;
+}
 
 @keyframes example {
     0% {
-        left: 90px;
+        left: 100px;
     }
 }
 
@@ -82,7 +85,7 @@
 }
 
 @media screen and (max-width: 1150px) {
-    .Why-Choose-Us5 {
+    .Orange-Div {
         color: black;
         width: 20%;
         font-size: 20px;
@@ -90,13 +93,13 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .Why-Choose-Us5 {
+    .Orange-Div {
         width: 40px;
         height: 30px;
         bottom: 40px;
         display: none;
     }
-    .Why-Choose-Us4 {
+    .Grey-Div .row {
         flex-wrap: wrap;
     }
 }
