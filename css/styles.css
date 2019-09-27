@@ -1,3 +1,107 @@
+.Why-Choose-Us {
+    min-height: 300px;
+    margin-top: 10%;
+    display: flex;
+}
+
+.Grey-Div {
+    background-color: #ededed;
+    margin: 2%;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    padding-left: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Grey-Div .container-fluid {
+    display: flex;
+    font-size: 13px;
+    margin-right: 7%;
+    margin: 8px;
+    width: 20%;
+}
+
+.Grey-Div .row {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 0px;
+    line-height: 5px;
+    margin-left: -20%;
+}
+
+.Grey-Div .row h5 {
+    color: red;
+    font-weight: 700;
+}
+
+.Grey-Div .row p {
+    font-size: 12px;
+}
+
+.Orange-Div {
+    background-color: #ff920a;
+    height: 310px;
+    width: 280px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.Orange-Div h5 {
+    font-size: 32px;
+    padding-left: 10px;
+}
+
+.Orange-Div p {
+    font-size: 17px;
+}
+
+.Orange-Div {
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+@keyframes example {
+    0% {
+        left: 100px;
+    }
+}
+
+.fa-arrow-alt-circle-right {
+    padding-left: 30px;
+    font-size: 38px;
+    position: relative;
+    left: 16px;
+    bottom: 10px;
+}
+
+@media screen and (max-width: 1150px) {
+    .Orange-Div {
+        color: black;
+        width: 20%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Orange-Div {
+        width: 40px;
+        height: 30px;
+        bottom: 40px;
+        display: none;
+    }
+    .Grey-Div .row {
+        flex-wrap: wrap;
+    }
+}
 
 nav > #nav-text {
     font-family: 'Kristi', cursive;
@@ -35,7 +139,6 @@ nav > #nav-text {
         opacity: 0.8;
       }
 
-
 footer {
     padding-bottom: 0;
 }
@@ -71,7 +174,6 @@ footer > div > div > div:nth-child(1) > div {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-
 }
 
 .footer-logo {
