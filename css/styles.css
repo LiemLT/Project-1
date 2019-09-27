@@ -1,0 +1,111 @@
+body {
+    font-size: 12px;
+}
+
+.Why-Choose-Us {
+    min-height: 300px;
+    margin-top: 10%;
+    display: flex;
+}
+
+.Grey-Div {
+    background-color: #CDCDCD;
+    margin: 2%;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    padding-left: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-fluid {
+    display: flex;
+    font-size: 13px;
+    margin-right: 7%;
+    margin: 8px;
+    width: 20%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 0px;
+    line-height: 5px;
+    margin-left: -20%;
+}
+
+.row h5 {
+    color: red;
+    font-weight: 700;
+}
+
+.row p {
+    font-size: 12px;
+}
+
+.Orange-Div {
+    background-color: 		#FF6347;
+    height: 330px;
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.Orange-Div h5 {
+    font-size: 32px;
+    padding-left: 10px;
+}
+
+.Orange-Div p {
+    font-size: 20px;
+}
+
+.Orange-Div {
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+@keyframes example {
+    100% {left: 50px;} 
+    
+}
+
+.fa-arrow-alt-circle-right {
+    padding-left: 30px;
+    font-size: 38px;
+    position: relative;
+    left: 16px;
+    bottom: 10px;
+}
+
+@media screen and (max-width: 1150px) {
+    .Orange-Div {
+        color: black;
+        width: 100px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Orange-Div {
+        width: 40px;
+        height: 30px;
+        bottom: 40px;
+        display: none;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
