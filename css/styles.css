@@ -1,3 +1,7 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 /* {
     outline: 1px solid red;
 } */
@@ -5,7 +9,7 @@
 /* Begin: Why-Choose-Us CSS */
 .Why-Choose-Us {
   min-height: 300px;
-  margin-top: 10%;
+  /* margin-top: 10%; */
   display: flex;
 }
 
@@ -53,7 +57,7 @@
     width: 280px;
     position: absolute;
     z-index: 1;
-    margin-left: 10%;
+    margin-left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,14 +83,6 @@
   0% {
     left: 100px;
   }
-}
-
-.fa-arrow-alt-circle-right {
-    padding-left: 30px;
-    font-size: 38px;
-    position: relative;
-    left: 8rem;
-    bottom: 3rem;
 }
 
 @media screen and (max-width: 1150px) {
@@ -164,7 +160,7 @@ nav > #nav-text {
     }
 
     html {
-        scroll-behavior: smooth;
+      scroll-behavior: smooth;
       }
 
     .my-float{
@@ -173,36 +169,56 @@ nav > #nav-text {
 /* End: Navbar + Header CSS */  
 
 /* Begin: Top-Partner CSS */
-
-/*.top-partner * {
-    outline: 1px solid red;
-} */
-
-.top-partner {
-    padding: 30px 50px !important;
+.section-header h3 {
+  font-size: 36px;
+  color: #283d50;
+  text-align: center;
+  font-weight: 500;
+  position: relative
 }
 
-.top-partner span {
-    border-bottom: 6px solid #ffc107;
+.section-header p {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #556877;
+  width: 50%
 }
 
-.top-partner .col-md-4 {
-    padding-bottom: 0;
+#clients {
+  padding: 60px 0
 }
 
-.top-partner .mb-3 {
-    box-shadow: 5px 5px 8px 0px rgba(148,140,148,1);
+#clients .clients-wrap {
+  border-top: 1px solid #d6eaff;
+  border-left: 1px solid #d6eaff;
+  margin-bottom: 30px
 }
 
-.top-partner .mb-3:hover {
-    transform: scale(1.1);
-    cursor: pointer;
+#clients .client-logo {
+  padding: 64px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-right: 1px solid #d6eaff;
+  border-bottom: 1px solid #d6eaff;
+  overflow: hidden;
+  background: #fff;
+  height: 160px
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) { 
-    .third-card {
-        margin: 0 auto;
-    }
+#clients img {
+  transition: all 0.4s ease-in-out
 }
 /* End: Top-Partner CSS */
 
@@ -317,26 +333,31 @@ footer .fab, footer .fas {
   color: whitesmoke;
   font-size: 28px;
 }
-.about-us,
+
+/* .about-us,
 .location .section-header {
   padding-top: 4%;
-}
+} */
+
 .section-header .section-title {
+  padding-top: 3rem;
   font-size: 32px;
   color: #111;
   text-align: center;
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
+
 hr {
   display: block;
   height: 0px;
   border: 0;
   border-top: 3px solid rgb(101, 247, 133);
-  margin: 1em 0;
+  justify-content: center;
   margin-right: 46%;
   margin-left: 46%;
 }
+
 .img-responsive {
     width: 255px;
     height: 255px;
