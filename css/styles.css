@@ -170,6 +170,7 @@ nav > #nav-text {
 
 /* Begin: Top-Partner CSS */
 .section-header h3 {
+  padding-top: 2rem;
   font-size: 36px;
   text-align: center;
   font-weight: 500;
@@ -184,8 +185,13 @@ nav > #nav-text {
   width: 50%
 }
 
-#clients {
+/* #clients {
   padding: 60px 0
+} */
+
+.client-logo {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 #clients .clients-wrap {
@@ -217,8 +223,6 @@ nav > #nav-text {
 
 #clients img {
   transition: all 0.4s ease-in-out
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
 }
 /* End: Top-Partner CSS */
 
@@ -340,7 +344,7 @@ footer .fab, footer .fas {
 } */
 
 .section-header .section-title {
-  padding-top: 3rem;
+  padding-top: 2rem;
   font-size: 32px;
   color: #111;
   text-align: center;
