@@ -115,26 +115,25 @@ nav > #nav-text {
     font-family: 'Kristi', cursive;
     font-size: 2rem;
     letter-spacing: 0.1rem;
-    opacity: 1;
     }
     
-    .navbar-nav {
-    opacity: 1;
-    }
-    
-    .navbar-toggler-icon {
-    opacity: 1;
+    .navbar {
+      width: 100%;
+      height: 80px;
+      position: fixed;
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.5);
+      justify-content: space-around;
+      z-index: 1000;
     }
     
     #greeting-1 {
-    padding-top: 5rem;
-    opacity: 1;
+    padding-top: 6rem;
     }
     
     #greeting-2 {
     padding-left: 5rem;
     padding-right: 5rem;
-    opacity: 1;
     }
     
     .jumbotron-fluid {
@@ -144,9 +143,32 @@ nav > #nav-text {
         background-size: cover;
         background-size: 100%;
         background-position: center bottom;
-        opacity: 0.8;
+      } 
+
+      .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius:50px;
+        text-align:center;
+        /* box-shadow: 2px 2px 3px #999; */
+        z-index: 1000;
+    }
+
+    #arrow {
+        color:#FFF;
+    }
+
+    html {
+        scroll-behavior: smooth;
       }
 
+    .my-float{
+        margin-top:22px;
+    }
 /* End: Navbar + Header CSS */  
 
 /* Begin: Top-Partner CSS */
@@ -216,9 +238,9 @@ footer > div > div > div > ul {
 }
 
 footer > div > div > div:nth-child(1) > div {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .footer-logo {
