@@ -1,3 +1,8 @@
+/* {
+    outline: 1px solid red;
+} */
+
+/* Begin: Why-Choose-Us CSS */
 .Why-Choose-Us {
     min-height: 300px;
     margin-top: 10%;
@@ -103,6 +108,9 @@
     }
 }
 
+/* End: Why Choose Us CSS */
+
+/* Begin: Navbar + Header CSS */
 nav > #nav-text {
     font-family: 'Kristi', cursive;
     font-size: 2rem;
@@ -139,10 +147,42 @@ nav > #nav-text {
         opacity: 0.8;
       }
 
+/* End: Navbar + Header CSS */  
+
+/* Begin: Top-Partner CSS */
 /*.top-partner * {
     outline: 1px solid red;
 } */
 
+.top-partner {
+    padding: 30px 50px !important;
+}
+
+.top-partner span {
+    border-bottom: 6px solid #ffc107;
+}
+
+.top-partner .col-md-4 {
+    padding-bottom: 0;
+}
+
+.top-partner .mb-3 {
+    box-shadow: 5px 5px 8px 0px rgba(148,140,148,1);
+}
+
+.top-partner .mb-3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .third-card {
+        margin: 0 auto;
+    }
+}
+/* End: Top-Partner CSS */
+
+/* Footer CSS */
 footer {
     padding-bottom: 0;
 }
@@ -203,6 +243,10 @@ footer .fab, footer .fas {
 .btn.btn-primary:hover {
     opacity: 1;
 }
+
+/* End: Footer CSS */
+
+/* About Us CSS */
 
 .about-us {
     background-color: #eff5f5;
@@ -277,3 +321,5 @@ footer .fab, footer .fas {
     flex-direction: column;
     align-items: center;
 }
+
+/* End: About Us CSS */
