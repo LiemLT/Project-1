@@ -139,6 +139,31 @@ nav > #nav-text {
         background-position: center bottom;
       } 
 
+      .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius:50px;
+        text-align:center;
+        /* box-shadow: 2px 2px 3px #999; */
+        z-index: 1000;
+    }
+
+    #arrow {
+        color:#FFF;
+    }
+
+    html {
+        scroll-behavior: smooth;
+      }
+
+    .my-float{
+        margin-top:22px;
+    }
+
 footer {
     padding-bottom: 0;
 }
