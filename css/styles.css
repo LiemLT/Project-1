@@ -314,10 +314,14 @@ footer .fab, footer .fas {
 }
 .about-us .card-text,
 .section-text {
-  /* font-style: italic; */
   font-size: 13px;
   color: #666666;
 }
+
+.about-us-text {
+font-style: italic;
+}
+
 .section-text {
   display: flex;
   justify-content: center;
