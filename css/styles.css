@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 /* {
@@ -171,7 +171,6 @@ nav > #nav-text {
 /* Begin: Top-Partner CSS */
 .section-header h3 {
   font-size: 36px;
-  color: #283d50;
   text-align: center;
   font-weight: 500;
   position: relative
@@ -182,7 +181,6 @@ nav > #nav-text {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #556877;
   width: 50%
 }
 
@@ -191,8 +189,8 @@ nav > #nav-text {
 }
 
 #clients .clients-wrap {
-  border-top: 1px solid #d6eaff;
-  border-left: 1px solid #d6eaff;
+  /* border-top: 1px solid #848d95;
+  border-left: 1px solid #848d95; */
   margin-bottom: 30px
 }
 
@@ -210,8 +208,8 @@ nav > #nav-text {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-right: 1px solid #d6eaff;
-  border-bottom: 1px solid #d6eaff;
+  /* border-right: 1px solid #848d95;
+  border-bottom: 1px solid #848d95; */
   overflow: hidden;
   background: #fff;
   height: 160px
@@ -219,6 +217,8 @@ nav > #nav-text {
 
 #clients img {
   transition: all 0.4s ease-in-out
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 /* End: Top-Partner CSS */
 
@@ -310,7 +310,7 @@ footer .fab, footer .fas {
 }
 .about-us .card-text,
 .section-text {
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 13px;
   color: #666666;
 }
