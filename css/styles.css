@@ -158,18 +158,25 @@ body {
 /* begin booking section */
 
 #booking {
-  border-top: 0.1rem solid #848d95;
-  border-left: 0.1rem solid #848d95;
-  border-right: 0.1rem solid #848d95;
-  border-bottom: 0.1rem solid #848d95;
-  margin-top: 10px;
-  padding: 5rem;
-  margin: 2rem;
+  border-top: 0.1rem solid aliceblue;
+  border-left: 0.1rem solid aliceblue;
+  border-right: 0.3rem solid #848d95;
+  border-bottom: 0.3rem solid #848d95;
+  padding: 2.4rem;
+  margin: 3.5rem 4rem 3rem 4rem;
+  border-radius: 30px;
+  background-color: aliceblue;
+}
+
+#booking .form-control {
+  margin-bottom: 10px;
 }
 
 #booking label {
 color: grey;
 }
+
+/* end booking section */
 
 /* Begin: Top-Partner CSS */
 .section-header h3 {
