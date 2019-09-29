@@ -103,7 +103,6 @@ body {
     flex-wrap: wrap;
   }
 }
-
 /* End: Why Choose Us CSS */
 
 /* Begin: Navbar + Header CSS */
@@ -165,6 +164,25 @@ body {
         margin-top:22px;
     }
 /* End: Navbar + Header CSS */  
+
+
+/* begin booking section */
+.booking-container {
+    padding: 5rem;
+    margin: 2rem;
+}
+
+#booking {
+  border-top: 1px solid #848d95;
+  border-left: 1px solid #848d95;
+  border-right: 1px solid #848d95;
+  border-bottom: 1px solid #848d95;
+  margin-top: 10px;
+}
+
+#booking label {
+color: grey;
+}s
 
 /* Begin: Top-Partner CSS */
 .section-header h3 {
