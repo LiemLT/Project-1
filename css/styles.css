@@ -167,22 +167,20 @@ body {
 
 
 /* begin booking section */
-.booking-container {
-    padding: 5rem;
-    margin: 2rem;
-}
 
 #booking {
-  border-top: 1px solid #848d95;
-  border-left: 1px solid #848d95;
-  border-right: 1px solid #848d95;
-  border-bottom: 1px solid #848d95;
+  border-top: 0.1rem solid #848d95;
+  border-left: 0.1rem solid #848d95;
+  border-right: 0.1rem solid #848d95;
+  border-bottom: 0.1rem solid #848d95;
   margin-top: 10px;
+  padding: 5rem;
+  margin: 2rem;
 }
 
 #booking label {
 color: grey;
-}s
+}
 
 /* Begin: Top-Partner CSS */
 .section-header h3 {
