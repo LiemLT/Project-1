@@ -108,22 +108,22 @@ body {
 /* End: Why Choose Us CSS */
 
 /* Begin: Navbar + Header CSS */
-nav > #nav-text {
+    nav > #nav-text {
     font-family: 'Kristi', cursive;
     font-size: 2rem;
     letter-spacing: 0.1rem;
     }
     
-    .navbar {
-      width: 100%;
-      height: 80px;
-      position: fixed;
-      display: flex;
+    .navbar-dark {
       background-color: rgba(0, 0, 0, 0.5);
-      justify-content: space-around;
+      text-align: right;
       z-index: 1000;
     }
-    
+
+    .navbar-toggler.toggler-example {
+      cursor: pointer;
+      }
+
     #greeting-1 {
     padding-top: 6rem;
     }
@@ -150,8 +150,7 @@ nav > #nav-text {
         right:40px;
         background-color: rgba(0, 0, 0, 0.5);
         border-radius:50px;
-        text-align:center;
-        /* box-shadow: 2px 2px 3px #999; */
+        text-align: center;
         z-index: 1000;
     }
 
